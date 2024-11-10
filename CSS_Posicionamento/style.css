@@ -1,26 +1,23 @@
 .grid {
     display: grid;
     gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+
 }
 
-.grid .image {
-    grid-column: 1 / -1;
+.titulo {
+    grid-column: 1/-1;
 }
 
-.grid .preco {
-    place-self: center end;
+.info {
+    display: grid;
+    place-items: start;
+    place-self: start;
+    gap: 20px;
 }
 
-.grid .descricao {
-    grid-column: 1 / -1;
-}
 
-.grid .compra {
-    grid-column: 1 / -1;
-    text-align: center;
-}
+
 
 /* Estilos Gerais */
 
