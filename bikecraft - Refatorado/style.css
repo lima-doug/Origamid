@@ -23,7 +23,7 @@
 
 .menu a {
     background: #fff;
-    padding: 24px 32px;
+    padding: 1rem 2rem;
     border-radius: 4px;
     color: #323232;
     text-transform: uppercase;
@@ -52,7 +52,7 @@
 .intro a {
     background: #e21;
     color: #fff;
-    padding: 15px 30px;
+    padding: 1rem 2rem;
     border-radius: 4px;
     text-transform: uppercase;
 }
@@ -72,6 +72,9 @@
 
 }
 
+.intro h1 {
+    font-size: 2rem;
+}
 
 .subtitle {
     font-size: 4rem;
@@ -79,29 +82,32 @@
     background: #f7f7f7;
     color: rgba(0, 0, 0, 0.2);
     text-align: right;
-    padding: 40px;
+    padding: 2.5rem;
     align-self: center;
+    background-image: url(./img/onda.svg);
 }
 
 .vantagens {
-    padding: 40px;
+    padding: 2.5rem;
     background-color: #fff;
-
+    margin: 0;
 }
 
 .vantagens_item {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 10px 20px;
-    padding: 15px 0;
+    padding: 1rem 0;
 }
+
 
 .vantagens li {
     padding: 40px;
+    border-left: 0.5rem solid transparent;
 }
 
 .vantagens li:hover {
-    border-left: 0.5rem solid #900;
+    border-color: #900;
 }
 
 .vantagens li:nth-child(odd) {
@@ -115,7 +121,7 @@
 .rodape {
     width: 100%;
     text-align: center;
-    padding: 16px;
+    padding: 1rem;
     background: #fff;
     box-sizing: border-box;
 }
